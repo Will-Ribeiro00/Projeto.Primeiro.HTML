@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Estudos HTML</title>
+    </head>
+    <body>
+        <h1 id="inicio" style="font-style: oblique; text-align: center;">Formação HTML Web Developer <br/> <a href="https://www.dio.me/" target="_blank">Dio.me</a></h1>
+        <hr/>
+        
+        <h2>Índice</h2>
+        <ol>
+            <li><a href="#ClientServer">Client x Server</a></li>
+            <li><a href="#LingragemProgramacao">Linguagem de Programação</a></li>
+            <li><a href="#html">O que é  HTML</a></li>
+            <li><a href="#tag">As Tags</a>
+                <ul>
+                    <li><a href="#tag_titulo">Títulos</a></li>
+                    <li><a href="#tag_paragrafo">Parágrafo</a></li>
+                    <li><a href="#tag_listas">Listas</a></li>
+                    <li><a href="#tag_atributos">Atributos</a></li>
+                </ul>
+            </li>
+            <li><a href="#referencias">Referências</a></li>
+        </ol>
+        <hr/>
+
+        <h2 id="ClientServer">Client x Server</h2>
+        <small><a href="#inicio">início</a></small>
+        <div style="text-align: center;">
+            <img width="250" src="./src/imagens/client-server.png" alt="Client X Server"/>
+        </div>
+        <p>
+            O modelo cliente/servidor é fundamental para a comunicação e o funcionamento da internet. Nesse contexto, o cliente e o servidor desempenham papéis distintos, mas complementares.
+        </p>
+        <p>
+            <h4>Cliente</h4> É o dispositivo ou aplicativo que busca serviços e recursos disponíveis na rede. Ele representa o usuário final e interage diretamente com os servidores. Por meio de solicitações, o cliente requisita informações, arquivos ou funcionalidades específicas. Exemplos comuns de clientes incluem navegadores da web, aplicativos de e-mail, aplicativos de mensagens, etc.
+        </p>
+        <p>
+            <h4>Servidor</h4> É responsável por hospedar serviços e recursos. Ele processa as solicitações dos clientes e fornece as informações necessárias. Os servidores podem ser especializados em diferentes áreas, como servidores web, servidores de e-mail ou servidores de arquivos. Esses dispositivos são configurados para atender a múltiplos clientes simultaneamente, garantindo eficiência e escalabilidade.
+        </p>
+        <p>
+            <h4>Client e Server</h4> Possui uma relação simbiótica. O cliente depende dos servidores para obter dados e funcionalidades, enquanto os servidores dependem dos clientes para manter sua relevância e utilidade. Essa arquitetura distribuída permite a descentralização do processamento e a otimização dos recursos na rede.
+        </p>
+        <p>
+            Em resumo, o modelo Cliente x Servidor é essencial para a conectividade e a troca de informações na internet. Clientes e servidores trabalham em conjunto para tornar possível a navegação, o envio de e-mails, o acesso a arquivos e muitas outras atividades online.
+        </p>
+        <hr/>
+
+        <h2 id="LingragemProgramacao">Linguagem de Programação</h2>
+        <small><a href="#inicio">início</a></small>
+        <div style="text-align: center;">
+            <img width="300" src="./src/imagens/Linguagens-programacao.jpg" alt="linguagens de programacao"/>
+        </div>
+        <blockquote><i>A linguagem de programação é um elemento essencial no mundo da computação, permitindo que desenvolvedores criem software, aplicativos e sistemas.</i></blockquote>
+        <p>
+            A linguagem de programação é um conjunto de regras sintáticas e semânticas que permite a criação de código fonte. Essa linguagem atua como uma ponte entre a linguagem humana e a linguagem de máquina, permitindo que os desenvolvedores expressem suas ideias e instruções de forma estruturada.
+        </p>
+        <p>
+            A diversidade de linguagens é vasta, e cada uma tem suas características e finalidades específicas. Algumas das mais populares são:
+        </p>
+        
+        <P>
+            <ul>
+                <li><strong>Python:</strong> Conhecida por sua simplicidade e legibilidade, Python é amplamente usada em desenvolvimento web, análise de dados e automação.</li>
+                <li><strong>Java:</strong> Versátil, é usada em aplicativos Android, sistemas empresariais e servidores.</li>
+                <li><strong>JavaScript:</strong> Essencial para o desenvolvimento front-end de sites e aplicativos web.</li>
+                <li><strong>C++:</strong> Uma linguagem de alto desempenho usada em jogos, sistemas operacionais e aplicativos de baixo nível.</li>
+                <li><strong>Ruby:</strong> Valorizada por sua elegância e produtividade, é usada em desenvolvimento web e automação.</li>
+                <li><strong>SQL:</strong> Especializada em consultas e manipulação de bancos de dados.</li>
+            </ul>
+        </P>
+        <p>
+            A escolha da linguagem depende do contexto e dos objetivos do projeto. Não existe uma linguagem “melhor” universalmente; o desenvolvedor deve considerar fatores como domínio do problema, comunidade de suporte e facilidade de aprendizado
+        </p>
+        <hr/>
+
+        <h2 id="html">O que é HTML ?</h2>
+        <small><a href="#inicio">início</a></small>
+        <div style="text-align: center;">
+            <img width="175" src="./src/imagens/html-icon.png" alt="icone html" />    
+        </div>
+        <blockquote>HTML = HyperText Markup Language</blockquote>
+        <p>
+            O HTML é uma <mark style="background-color: bisque;">linguagem de marcação</mark> amplamente utilizada na construção de páginas da web. Ele define a organização e a formatação do conteúdo, permitindo que os navegadores interpretem e exibam informações de maneira consistente. O HTML é a base estrutural de qualquer página da web.
+        </p>
+        <p>
+            Ao utilizar tags HTML, como &lt;head&gt;, &lt;body&gt;, &lt;p&gt;, &lt;h1&gt; a &lt;h6&gt;, &lt;a&gt;, &lt;img&gt;, entre outras, os desenvolvedores podem estruturar o conteúdo de forma adequada. A semântica do HTML é fundamental para criar páginas acessíveis, beneficiando pessoas com deficiência visual ou auditiva.
+        </p>
+        <p>
+            Além disso, boas práticas, como o uso correto de atributos e a separação de estilo (CSS) e comportamento (JavaScript) do HTML, são essenciais para o desenvolvimento web. A tecnologia web está sempre evoluindo, tornando o aprendizado contínuo do HTML crucial para quem deseja trabalhar nessa área.
+        </p>
+        <hr>
+
+        <h2 id="tag">As Tags</h2>
+        <small><a href="#inicio">início</a></small>
+        <div style="text-align: center;">
+            <img width="150" style="margin: 0 10px;" src="./src/imagens/tag-abertura.png" alt="tag de abertura">
+            <img width="150" style="margin: 0 10px;" src="./src/imagens/tag-fechamento.png" alt="tag de fechamento">
+        </div>
+        <p>
+            Cada elemento HTML possui uma <strong>tag de abertura</strong> <mark style="background-color: bisque;"> &lt; &gt; </mark> (indicando onde ele começa) e uma <strong>tag de fechamento</strong> <mark style="background-color: bisque;"> &lt;/&gt; </mark> (indicando onde ele termina). Esquecer de incluir a tag de fechamento é um erro comum para iniciantes e pode levar a resultados estranhos.
+        </p>  
+        <p>
+            Além disso, as tags podem ter <strong>atributos</strong> que permitem fornecer identificadores, estilos ou outras informações ao elemento.
+        </p>  
+        <ul>
+            <li><h3 id="tag_titulo">Tags de Títulos</h3></li>
+            <div style="text-align: center;">
+                <img width="270" src="./src/imagens/tag-h1-h6.png" alt="tag h1-h6">
+            </div>
+            <p>
+                As tags de título no HTML variam de <mark style="background-color: bisque;"> &lt;h1&gt; &lt;/h1&gt; até &lt;h6&gt; &lt;/h6&gt; </mark>. Elas são essenciais para definir o título de uma página da web e aparecem nos resultados de pesquisa do Google.
+            </p>
+            <p>
+                A tag de título deve ser escolhida cuidadosamente para refletir o conteúdo da página e atrair o público-alvo.
+            </p>
+            <br>
+
+            <li><h3 id="tag_paragrafo">Tag de Parágrafo</h3></li>
+            <div style="text-align: center;">
+                <img width="350" src="./src/imagens/tag-p.jpg" alt="tag p">
+            </div>
+            <p>
+                Esta tag, formada por <mark style="background-color: bisque;">&lt;p&gt; &lt;/p&gt;</mark>, é fundamental para a estruturação de textos na web. No contexto de marcação de hipertexto, ela serve como um delimitador para parágrafos, indicando ao navegador que deve haver uma separação visual entre o texto contido dentro de suas tags e outros elementos adjacentes. Essa separação geralmente se manifesta na forma de uma margem vertical ou espaço em branco, proporcionando uma leitura mais clara e organizada.
+            </p>
+            <p>
+                Além de sua função estética e organizacional, a tag &lt;p&gt; &lt;/p&gt; também possui relevância semântica. Ela informa aos motores de busca e tecnologias assistivas que o conteúdo ali presente é um parágrafo de texto, contribuindo para a acessibilidade e SEO (Search Engine Optimization) de uma página. Portanto, seu uso correto não apenas melhora a experiência do usuário, mas também auxilia na interpretação e indexação do conteúdo por parte de algoritmos e softwares especializados.
+            </p>
+            <br>
+
+            <li><h3 id="tag_listas">Tags de Listas</h3></li>
+            <div style="text-align: center;">
+                <img width="350" src="./src/imagens/tag-listas.png" alt="tag lista">
+            </div>
+            <p>
+                As tags de listas em HTML são elementos cruciais para estruturar e organizar informações em páginas da web. Elas permitem que os desenvolvedores criem listas de itens, sendo elas:
+            </p>
+            <p>
+                <h3>&lt;ol&gt; &lt;/ol&gt;</h3> Abreviação de <strong>"ordered list"</strong> em HTML, é usada para criar listas ordenadas, onde os itens são numerados automaticamente. Essa estrutura é valiosa para organizar informações de maneira sequencial e lógica, seja em procedimentos, rankings ou etapas. Além disso, oferece flexibilidade para personalizar o estilo de enumeração por meio de atributos como type e start. A tag &lt;ol&gt; &lt;/ol&gt; é essencial para criar uma hierarquia visualmente clara e coerente em páginas da web, contribuindo para uma melhor experiência de usuário e compreensão do conteúdo apresentado.
+            </p>
+            <p>
+                <h3>&lt;ul&gt; &lt;/ul&gt;</h3> Significa <strong>"unordered list"</strong>, em HTML, é fundamental para criar listas não ordenadas, onde os itens são marcados com símbolos, como pontos ou marcadores personalizados. Essa estrutura é especialmente útil quando a ordem dos itens não é importante, mas sim sua inclusão na lista. Oferece versatilidade ao permitir a criação de listas de itens que podem ser agrupados de forma lógica e visualmente distintos. Além disso, pode ser estilizada facilmente usando CSS para se adequar ao design da página, proporcionando uma apresentação clara e organizada do conteúdo para os usuários.
+            </p>
+            <p>
+                <h3>&lt;dl&gt; &lt;/dl&gt;</h3> Do inglês <strong>"definition list"</strong>, é utilizada para criar listas de definições, onde cada termo é seguido por sua definição correspondente. Essa estrutura é particularmente útil para organizar informações em formatos como glossários, dicionários ou descrições de produtos. Cada item da lista é composto por dois elementos: um &lt;dt&gt; &lt;/dt&gt;, que representa o termo a ser definido, e um &lt;dd&gt; &lt;/dd&gt;, que contém a definição desse termo.<br> A tag &lt;dl&gt; &lt;/dl&gt;oferece uma maneira eficiente de apresentar informações de forma clara e concisa, facilitando a compreensão do conteúdo pelos usuários.
+            </p>
+            <br>
+
+            <li>
+                <h3 id="tag_atributos">Atributos</h3>
+                <div style="text-align: center;">
+                    <img width="350" src="./src/imagens/tag_atributo.png" alt="Atributos">
+                </div>
+                <p>
+                    Em HTML, os atributos são elementos fundamentais que conferem características e funcionalidades aos elementos de uma página da web. Eles são essenciais para identificar, classificar e controlar o comportamento dos elementos, como formulários, imagens e links. Além disso, os atributos desempenham um papel crucial na integração de recursos externos, como imagens, vídeos e scripts. Também são usados para melhorar a acessibilidade da página, fornecendo informações adicionais para usuários com deficiência. Em suma, os atributos em HTML são peças-chave para a estruturação, formatação e funcionalidade das páginas da web.
+                </p>
+                <blockquote>A sintaxe básica de um atributo em HTML consiste em especificar o nome do atributo seguido do sinal de igual (=) e aspas duplas (""). Dentro das aspas duplas, é inserido o valor do atributo.</blockquote>
+                <p>
+                    Alguns dos atributos mais comuns do HTML são:
+                    <ul>
+                        <li><strong>id:</strong> Utilizado para identificar de forma única um elemento na página, permitindo referenciá-lo em estilos CSS ou scripts JavaScript.</li>
+                        <li><strong>class:</strong> Usado para aplicar estilos ou comportamentos a um grupo de elementos semelhantes, permitindo sua formatação em conjunto.</li>
+                        <li><strong>href:</strong> Define o destino de um link, especificando o URL para o qual o usuário será direcionado quando o link for clicado.</li>
+                        <li><strong>src:</strong> Indica o caminho para o recurso a ser incorporado, como uma imagem, áudio ou vídeo, a ser exibido na página.</li>
+                        <li><strong>alt:</strong> Fornece um texto alternativo que é exibido quando a imagem especificada no elemento não pode ser carregada ou exibida.</li>
+                        <li><strong>title:</strong> Adiciona um texto de dica que é exibido quando o usuário passa o mouse sobre o elemento, fornecendo informações adicionais.</li>
+                        <li><strong>aria- :</strong> Usados para melhorar a acessibilidade da página, fornecendo informações adicionais para usuários com deficiência, como leitores de tela.</li>
+                    </ul>
+                </p>
+            </li>
+            
+        </ul>
+        <hr>
+        <h2 id="referencias">Referências</h2>
+        <small><a href="#inicio">inicio</a></small>
+        <div style="text-align: center;">
+            <img width="250" src="./src/imagens/referencias.webp" alt="Referências">
+        </div>
+        <ul>
+            <li><a target="_blank" href="https://www.dio.me/bootcamp/html-web-developer">HTML Web Developer - Dio</a></li>
+            <li><a target="_blank" href="https://www.devmedia.com.br/guia/html/38051">Guia HTML - DevMedia</a></li>
+            <li><a target="_blank" href="https://www.w3schools.com/TAGS/default.asp">HTML Element Reference - W3School</a></li>
+            <li><a target="_blank" href="https://code.visualstudio.com/docs/languages/html">HTML in Visual Studio Code - VS Code</a></li>
+        </ul>
+    </body>
+</html>
